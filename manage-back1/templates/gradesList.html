@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级信息</title>
+</head>
+<body>
+    <ul>
+        {% for grade in grades %}
+            <li>{{ grade.name }}</li>
+        {% endfor %}
+
+    </ul>
+</body>
+</html>
